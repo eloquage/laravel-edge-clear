@@ -1,6 +1,6 @@
 # Laravel Edge Clear
 
-[![Tests](https://github.com/illuma-law/laravel-edge-clear/actions/workflows/run-tests.yml/badge.svg)](https://github.com/illuma-law/laravel-edge-clear/actions)
+[![Tests](https://github.com/eloquage/laravel-edge-clear/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eloquage/laravel-edge-clear/actions)
 [![Packagist License](https://img.shields.io/badge/Licence-MIT-blue)](http://choosealicense.com/licenses/mit/)
 [![Latest Stable Version](https://img.shields.io/packagist/v/illuma-law/laravel-edge-clear?label=Version)](https://packagist.org/packages/illuma-law/laravel-edge-clear)
 
