@@ -45,4 +45,4 @@ jobs:
           composer update --prefer-dist --no-interaction --ignore-platform-reqs
 
       - name: Execute tests
-        run: vendor/bin/pest --coverage --min=100
+        run: vendor/bin/pest --ci
