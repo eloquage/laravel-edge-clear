@@ -2,17 +2,18 @@
 
 declare(strict_types=1);
 
+use IllumaLaw\EdgeClear\CloudflarePurger;
 use IllumaLaw\EdgeClear\EdgeClearServiceProvider;
 
 it('registers the cloudflare-purger singleton', function (): void {
-    expect(app('cloudflare-purger'))->not->toBeNull();
+    expect(app('cloudflare-purger') instanceof CloudflarePurger)->toBeTrue();
 });
 
 it('returns the same instance each time (singleton)', function (): void {
-    $first = app('cloudflare-purger');
+    $first = app()->make(CloudflarePurger::class);
     $second = app('cloudflare-purger');
 
-    expect($first)->toBe($second);
+    expect($first === $second)->toBeTrue();
 });
 
 it('provides the cloudflare-purger binding', function (): void {
