@@ -2,7 +2,7 @@
     "name": "eloquage/laravel-edge-clear",
     "description": "Standalone Cloudflare cache purging for Laravel",
     "keywords": [
-        "illuma-law",
+        "eloquage",
         "laravel",
         "cloudflare",
         "cache",
@@ -13,8 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "illuma-law",
-            "email": "support@illuma.law",
+            "name": "Eloquage",
             "role": "Developer"
         }
     ],
