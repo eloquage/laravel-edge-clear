@@ -7,7 +7,7 @@ metadata:
 
 # Laravel package development
 
-Use this skill when changing this Composer package: `illuma-law/laravel-edge-clear` — Standalone Cloudflare cache purging for Laravel
+Use this skill when changing this Composer package: `eloquage/laravel-edge-clear` — Standalone Cloudflare cache purging for Laravel
 
 ## Package context
 

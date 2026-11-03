@@ -5,7 +5,7 @@
 Purge Cloudflare cache and set edge-cache headers from a Laravel application.
 
 [![Tests](https://github.com/eloquage/laravel-edge-clear/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eloquage/laravel-edge-clear/actions/workflows/run-tests.yml)
-[![Latest Version](https://img.shields.io/packagist/v/illuma-law/laravel-edge-clear)](https://packagist.org/packages/illuma-law/laravel-edge-clear)
+[![Latest Version](https://img.shields.io/packagist/v/eloquage/laravel-edge-clear)](https://packagist.org/packages/eloquage/laravel-edge-clear)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Requires PHP 8.3+ and Laravel 11, 12, or 13.
@@ -13,7 +13,7 @@ Requires PHP 8.3+ and Laravel 11, 12, or 13.
 ## Install and configure
 
 ```bash
-composer require illuma-law/laravel-edge-clear
+composer require eloquage/laravel-edge-clear
 php artisan vendor:publish --tag=edge-clear-config
 ```
 

@@ -1,4 +1,4 @@
-# illuma-law/laravel-edge-clear
+# eloquage/laravel-edge-clear
 
 Cloudflare cache purging and cache bypass management for Laravel.
 

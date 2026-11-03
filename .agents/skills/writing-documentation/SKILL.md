@@ -7,7 +7,7 @@ metadata:
 
 # Writing and documentation
 
-Write documentation for `illuma-law/laravel-edge-clear` (Standalone Cloudflare cache purging for Laravel) that lets the intended reader complete a concrete task.
+Write documentation for `eloquage/laravel-edge-clear` (Standalone Cloudflare cache purging for Laravel) that lets the intended reader complete a concrete task.
 
 ## Source and structure
 
