@@ -42,7 +42,7 @@ jobs:
         run: |
           composer require "illuminate/support:${{ matrix.laravel }}" "illuminate/contracts:${{ matrix.laravel }}" "illuminate/http:${{ matrix.laravel }}" --no-interaction --no-update --ignore-platform-reqs
           composer require "orchestra/testbench:${{ matrix.testbench }}" --dev --no-interaction --no-update --ignore-platform-reqs
-          composer update --prefer-dist --no-interaction --ignore-platform-reqs
+          COMPOSER_NO_BLOCKING=1 composer update --prefer-dist --no-interaction --ignore-platform-reqs
 
       - name: Execute tests
         run: vendor/bin/pest --ci
