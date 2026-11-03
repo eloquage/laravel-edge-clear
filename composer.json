@@ -1,5 +1,5 @@
 {
-    "name": "illuma-law/laravel-edge-clear",
+    "name": "eloquage/laravel-edge-clear",
     "description": "Standalone Cloudflare cache purging for Laravel",
     "keywords": [
         "illuma-law",
